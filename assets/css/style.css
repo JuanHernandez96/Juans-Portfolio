@@ -31,6 +31,9 @@ header nav ul {
     align-items: center;
     list-style:none;
 }
+a {
+    text-decoration: none;
+}
 nav {
 padding-top: 22px;
 }
@@ -43,8 +46,12 @@ div header{
     color:purple;
     float: left;
 }
-div project{
-    display: flex;
+div{
+    display: inline-flex;
+    bottom:100px;
+}
+section div{
+    height: 800px;
 }
 section {
     display:flex;
@@ -55,7 +62,8 @@ section h2 {
     flex-wrap: wrap;
     width:30%;
     padding-right: 3px;
-    margin: 0 0 0 300px
+    margin: 10px 0 0 300px;
+    color:purple;
 }
 section p{
     display: flex;
@@ -68,9 +76,12 @@ section p{
     height:375px;
 }
 .run img{
-    width: 800px;
+    width: 1077px;
     height: 600px;
+    margin-top: 36px;
     margin-right:175px;
+    padding: 10px;
+    background-color: purple;
 }
 .text-img {
     height: 40px;
@@ -79,14 +90,68 @@ section p{
     color: gold;
     text-decoration: none;
 }
-.working h4 {
+.working  h4 {
     position: relative;
     text-decoration: none;
-    bottom: 250px;
+    bottom: 200px;
     background-color: purple;
     color:gold;
     font-size: 35px;
     width: 200px;
-    padding: 5px 5px 25px 5px;
+    padding: 5px 5px 25px 14px;
     display: inline-flex;
+}
+.working h5{
+    font-size:15px;
+    color: gold;
+    bottom: 294px;
+    position: relative;
+    left: 14px;
+}
+.random img{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    bottom: 109px;
+    left: 530px;
+    background-color: purple;
+    padding: 10px;
+}
+.random h4{
+    position: relative;
+    text-decoration: none;
+    bottom: 200px;
+    top: -164px;
+    left: 12px;
+    background-color: purple;
+    color:gold;
+    font-size: 35px;
+    width: 200px;
+    padding: 5px 5px 25px 14px;
+    display: inline-flex;
+}
+.random h5{
+    font-size: 15px;
+    color: gold;
+    bottom: 144px;
+    position: relative;
+    left: -192px;
+    display: inline-flex;
+}
+.contact h2{
+    position: relative;
+    bottom: 155px;
+    margin-right:55px
+}
+.contact a{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    margin: 0 25px;
+    font-size: 28px;
+    color:purple;
+    position:relative;
+    bottom:100px;
+    right:200px;
 }
