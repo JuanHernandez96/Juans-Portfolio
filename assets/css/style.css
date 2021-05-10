@@ -43,6 +43,9 @@ div header{
     color:purple;
     float: left;
 }
+div project{
+    display: flex;
+}
 section {
     display:flex;
 }
@@ -60,7 +63,30 @@ section p{
     padding-right: 100px;
     padding-left: 60px;
 }
-img{
+.hero img{
     width:100%;
     height:375px;
+}
+.run img{
+    width: 800px;
+    height: 600px;
+    margin-right:175px;
+}
+.text-img {
+    height: 40px;
+    width: 8px;
+    background-color: purple;
+    color: gold;
+    text-decoration: none;
+}
+.working h4 {
+    position: relative;
+    text-decoration: none;
+    bottom: 250px;
+    background-color: purple;
+    color:gold;
+    font-size: 35px;
+    width: 200px;
+    padding: 5px 5px 25px 5px;
+    display: inline-flex;
 }
