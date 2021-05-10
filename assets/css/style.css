@@ -141,7 +141,7 @@ section p{
 .contact h2{
     position: relative;
     bottom: 155px;
-    margin-right:55px
+    margin-right:55px;
 }
 .contact a{
     display: flex;
